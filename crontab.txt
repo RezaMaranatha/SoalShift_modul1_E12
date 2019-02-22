@@ -1,0 +1,11 @@
+==========nomor 1==========
+
+14 14 14 2 5 ~/Desktop/Modul1/1.sh
+
+==========nomor 4==========
+
+@hourly /home/idputuwiprah/Downloads/nomor4.sh
+
+==========nomor 5==========
+
+2-30/6 * * * * ~/Deskktop/Modul1/5.sh 
