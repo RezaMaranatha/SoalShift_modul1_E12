@@ -1,6 +1,6 @@
 
 #!/bin/bash
-
+unzip ~/Desktop/Modul1/nature.zip
 gambar=`ls ~/Desktop/Modul1/nature | grep "[.]jpg$"` 
 
 for i in $gambar
