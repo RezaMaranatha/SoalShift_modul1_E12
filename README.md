@@ -8,7 +8,9 @@ Kemudian untuk schedule nya, kita menambahkan crontab
 
 
 # 3
-Untuk menjawab soal ke-tiga, kita perlu membuat random password yang nantinya akan disimpan di file .txt. Pertama kita minta input dari user untuk membuat berapa file. Kemudian untuk membuat file random kita gunakan command 
+Untuk menjawab soal ke-tiga, kita perlu membuat random password yang nantinya akan disimpan di file .txt. Pertama kita minta input dari user untuk membuat berapa file. Kemudian untuk membuat file random kita gunakan command `< /dev/urandom tr -dc A-Za-z0-9 | head -c12 &>> "password$num.txt"` command "/dev/urandom tr -dc A-Za-z0-9" membuat random word dari aplhanumeric character, kemudian command "head -c12" untuk limit characternya menjadi hanya 12 character saja. Untuk If statement di awal, merupakan untuk cek apabila file dengan nama tersebut sudah ada maka, jumlah file yang perlu dibuat akan dilanjutkan dari file terakhir yang dibuat. 
+
+Contoh : pertama buat 5 file, kemudian buat lagi 5 file, lalu cek nama file nya, jika sudah ada maka lanjutkan membuat file no 6
 
 # 4
 
